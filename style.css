@@ -1,0 +1,53 @@
+
+#nav {
+	padding: 0; margin: 0;
+	text-align: center; /* centrer le texte */
+}
+#nav li {
+	display: inline-block;
+	list-style: none;
+}
+#nav a {
+	display:inline-block;
+	margin: 0 40px;
+	width: 100px;
+	padding: 5px 10px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	background: #0080FF;
+}
+section
+{
+    border: 1px solid blue;
+}
+
+.images_petit2 {
+width:130px;
+height:130px;
+}
+ 
+#banniere_image
+{
+    margin-top: 15px;
+    height: 200px;
+    border-radius: 5px;
+    background: url('bleus.png');
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+}
+
+#banniere_description
+{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.5%;
+    height: 100px;
+    padding-top: 10px;
+    padding-left: 4px;
+    color: white;
+    font-size: 1em;
+}
+
